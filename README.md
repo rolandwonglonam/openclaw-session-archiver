@@ -38,14 +38,14 @@ OpenClaw/Clawdbot 在长时间运行后，session 文件会积累大量消息（
 
 ```bash
 # 下载并运行安装脚本
-curl -fsSL https://raw.githubusercontent.com/YOUR_REPO/openclaw-session-archiver/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rolandwonglonam/openclaw-session-archiver/main/install.sh | bash
 ```
 
 ### 方法 2：手动安装
 
 ```bash
 # 1. 下载脚本
-git clone https://github.com/YOUR_REPO/openclaw-session-archiver.git
+git clone https://github.com/rolandwonglonam/openclaw-session-archiver.git
 cd openclaw-session-archiver
 
 # 2. 运行安装
