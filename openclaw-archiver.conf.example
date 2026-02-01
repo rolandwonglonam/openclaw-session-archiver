@@ -1,0 +1,30 @@
+# OpenClaw Session 归档配置
+# 这是一个示例配置文件
+
+# Session 文件目录（根据你的安装路径修改）
+# 常见路径:
+# - Docker: /volume1/docker/openclaw/config/agents/main/sessions
+# - 本地安装: ~/.openclaw/agents/main/sessions
+SESSIONS_DIR="/volume1/docker/openclaw/config/agents/main/sessions"
+
+# 归档文件存储目录
+MEMORY_DIR="/volume1/docker/openclaw/config/memory"
+
+# 保留的最大消息数（超过此数量将被归档）
+# 推荐值: 30-100
+# - 30: 最快响应，但记忆较短
+# - 50: 平衡选择（推荐）
+# - 100: 较长记忆，但可能影响性能
+MAX_MESSAGES=50
+
+# 机器人工作区目录（用于同步记忆到 MEMORY.md）
+WORKSPACE_DIR="/volume1/docker/openclaw/workspace"
+
+# 定时任务频率（cron 格式）
+# 格式: 分 时 日 月 周
+# 示例:
+# - "0 * * * *"  : 每小时运行一次（推荐）
+# - "*/30 * * * *": 每30分钟运行一次
+# - "0 */2 * * *": 每2小时运行一次
+# - "0 0 * * *"  : 每天午夜运行一次
+CRON_SCHEDULE="0 * * * *"
