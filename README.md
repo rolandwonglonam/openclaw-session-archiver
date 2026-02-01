@@ -175,7 +175,7 @@ MIT License
 
 ## 作者
 
-Created by the OpenClaw Community
+Created by Roland Wayne
 
 ## 更新日志
 
